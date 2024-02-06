@@ -1,21 +1,21 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/Home'
 import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Qualification from './components/Qualification'
 import Experience from './components/Experience'
-import Navbar from './navcomponents/Navbar'
+import Navigation from './navcomponents/Navbar'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Navbar />
+      <Navigation />
       <Home />
       <About />
       <Skills />
